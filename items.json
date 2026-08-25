@@ -1,0 +1,1012 @@
+{
+  "name": "SwisserAI FiveM Inventory Icon Pack",
+  "version": "1.0",
+  "license": "CC0-1.0",
+  "naming": "Filenames follow qb-core / qb-inventory conventions so the pack drops into html/images or web/images without renaming.",
+  "sources": [
+    "qbcore-framework/qb-core shared/items.lua (item names + labels)",
+    "qbcore-framework/qb-inventory html/images (filename conventions)"
+  ],
+  "brandPolicy": "No real trademarks. Real-world brands are replaced with lore-friendly GTA equivalents (Cola -> kurkakola, energy drink -> generic can). No named firearms.",
+  "iconCount": 232,
+  "categories": {
+    "food": {
+      "label": "Food",
+      "items": [
+        {
+          "file": "bread",
+          "label": "Bread"
+        },
+        {
+          "file": "sandwich",
+          "label": "Sandwich"
+        },
+        {
+          "file": "tosti",
+          "label": "Grilled Cheese Sandwich"
+        },
+        {
+          "file": "burger",
+          "label": "Burger"
+        },
+        {
+          "file": "hotdog",
+          "label": "Hot Dog"
+        },
+        {
+          "file": "pizza_slice",
+          "label": "Pizza Slice"
+        },
+        {
+          "file": "taco",
+          "label": "Taco"
+        },
+        {
+          "file": "burrito",
+          "label": "Burrito"
+        },
+        {
+          "file": "donut",
+          "label": "Donut"
+        },
+        {
+          "file": "cookies",
+          "label": "Cookies"
+        },
+        {
+          "file": "chocolate_bar",
+          "label": "Chocolate Bar"
+        },
+        {
+          "file": "candy",
+          "label": "Candy"
+        },
+        {
+          "file": "chips_bag",
+          "label": "Bag of Chips"
+        },
+        {
+          "file": "apple",
+          "label": "Apple"
+        },
+        {
+          "file": "banana",
+          "label": "Banana"
+        },
+        {
+          "file": "grape",
+          "label": "Grapes"
+        },
+        {
+          "file": "orange",
+          "label": "Orange"
+        },
+        {
+          "file": "strawberry",
+          "label": "Strawberry"
+        },
+        {
+          "file": "corn",
+          "label": "Corn"
+        },
+        {
+          "file": "tomato",
+          "label": "Tomato"
+        },
+        {
+          "file": "cooked_fish",
+          "label": "Cooked Fish"
+        },
+        {
+          "file": "steak",
+          "label": "Steak"
+        }
+      ]
+    },
+    "drink": {
+      "label": "Drinks",
+      "items": [
+        {
+          "file": "water_bottle",
+          "label": "Bottle of Water"
+        },
+        {
+          "file": "coffee",
+          "label": "Coffee"
+        },
+        {
+          "file": "kurkakola",
+          "label": "Cola"
+        },
+        {
+          "file": "sprunk",
+          "label": "Sprunk"
+        },
+        {
+          "file": "energy_drink",
+          "label": "Energy Drink"
+        },
+        {
+          "file": "beer",
+          "label": "Beer"
+        },
+        {
+          "file": "whiskey",
+          "label": "Whiskey"
+        },
+        {
+          "file": "vodka",
+          "label": "Vodka"
+        },
+        {
+          "file": "wine",
+          "label": "Wine"
+        },
+        {
+          "file": "grapejuice",
+          "label": "Grape Juice"
+        },
+        {
+          "file": "milkshake",
+          "label": "Milkshake"
+        },
+        {
+          "file": "tea_cup",
+          "label": "Tea"
+        },
+        {
+          "file": "juice_carton",
+          "label": "Juice Carton"
+        },
+        {
+          "file": "milk_carton",
+          "label": "Milk"
+        },
+        {
+          "file": "soda_bottle",
+          "label": "Soda Bottle"
+        },
+        {
+          "file": "empty_bottle",
+          "label": "Empty Bottle"
+        },
+        {
+          "file": "ice_cubes",
+          "label": "Ice Cubes"
+        },
+        {
+          "file": "coconut_water",
+          "label": "Coconut Water"
+        }
+      ]
+    },
+    "medical": {
+      "label": "Medical",
+      "items": [
+        {
+          "file": "bandage",
+          "label": "Bandage"
+        },
+        {
+          "file": "firstaid",
+          "label": "First Aid Kit"
+        },
+        {
+          "file": "medkit",
+          "label": "Medkit"
+        },
+        {
+          "file": "ifaks",
+          "label": "IFAK"
+        },
+        {
+          "file": "painkillers",
+          "label": "Painkillers"
+        },
+        {
+          "file": "morphine",
+          "label": "Morphine"
+        },
+        {
+          "file": "adrenaline_shot",
+          "label": "Adrenaline Shot"
+        },
+        {
+          "file": "blood_bag",
+          "label": "Blood Bag"
+        },
+        {
+          "file": "splint",
+          "label": "Splint"
+        },
+        {
+          "file": "gauze",
+          "label": "Gauze"
+        },
+        {
+          "file": "defibrillator",
+          "label": "Defibrillator"
+        },
+        {
+          "file": "stethoscope",
+          "label": "Stethoscope"
+        },
+        {
+          "file": "oxygen_mask",
+          "label": "Oxygen Mask"
+        },
+        {
+          "file": "tourniquet",
+          "label": "Tourniquet"
+        },
+        {
+          "file": "syringe",
+          "label": "Syringe"
+        },
+        {
+          "file": "medical_report",
+          "label": "Medical Report"
+        }
+      ]
+    },
+    "ammo": {
+      "label": "Ammunition",
+      "items": [
+        {
+          "file": "pistol_ammo",
+          "label": "Pistol Ammo"
+        },
+        {
+          "file": "rifle_ammo",
+          "label": "Rifle Ammo"
+        },
+        {
+          "file": "smg_ammo",
+          "label": "SMG Ammo"
+        },
+        {
+          "file": "shotgun_ammo",
+          "label": "Shotgun Ammo"
+        },
+        {
+          "file": "mg_ammo",
+          "label": "MG Ammo"
+        },
+        {
+          "file": "snp_ammo",
+          "label": "Sniper Ammo"
+        },
+        {
+          "file": "ammo_box_empty",
+          "label": "Empty Ammo Box"
+        },
+        {
+          "file": "cartridge_case",
+          "label": "Cartridge Case"
+        },
+        {
+          "file": "pistol_magazine",
+          "label": "Pistol Magazine"
+        },
+        {
+          "file": "rifle_magazine",
+          "label": "Rifle Magazine"
+        },
+        {
+          "file": "drum_magazine",
+          "label": "Drum Magazine"
+        },
+        {
+          "file": "extended_magazine",
+          "label": "Extended Magazine"
+        }
+      ]
+    },
+    "weapon_parts": {
+      "label": "Weapon Parts",
+      "items": [
+        {
+          "file": "suppressor_attachment",
+          "label": "Suppressor"
+        },
+        {
+          "file": "flashlight_attachment",
+          "label": "Weapon Flashlight"
+        },
+        {
+          "file": "grip_attachment",
+          "label": "Grip"
+        },
+        {
+          "file": "smallscope_attachment",
+          "label": "Small Scope"
+        },
+        {
+          "file": "largescope_attachment",
+          "label": "Large Scope"
+        },
+        {
+          "file": "holoscope_attachment",
+          "label": "Holo Scope"
+        },
+        {
+          "file": "thermalscope_attachment",
+          "label": "Thermal Scope"
+        },
+        {
+          "file": "muzzle_brake",
+          "label": "Muzzle Brake"
+        },
+        {
+          "file": "weapon_barrel",
+          "label": "Barrel"
+        },
+        {
+          "file": "weapon_trigger",
+          "label": "Trigger Group"
+        }
+      ]
+    },
+    "tools": {
+      "label": "Tools",
+      "items": [
+        {
+          "file": "lockpick",
+          "label": "Lockpick"
+        },
+        {
+          "file": "advancedlockpick",
+          "label": "Advanced Lockpick"
+        },
+        {
+          "file": "screwdriverset",
+          "label": "Toolkit"
+        },
+        {
+          "file": "drill",
+          "label": "Drill"
+        },
+        {
+          "file": "hammer",
+          "label": "Hammer"
+        },
+        {
+          "file": "wrench",
+          "label": "Wrench"
+        },
+        {
+          "file": "crowbar",
+          "label": "Crowbar"
+        },
+        {
+          "file": "pliers",
+          "label": "Pliers"
+        },
+        {
+          "file": "angle_grinder",
+          "label": "Angle Grinder"
+        },
+        {
+          "file": "flashlight",
+          "label": "Flashlight"
+        },
+        {
+          "file": "rope",
+          "label": "Rope"
+        },
+        {
+          "file": "duct_tape",
+          "label": "Duct Tape"
+        },
+        {
+          "file": "toolbox",
+          "label": "Toolbox"
+        },
+        {
+          "file": "repairkit",
+          "label": "Repair Kit"
+        },
+        {
+          "file": "advancedrepairkit",
+          "label": "Advanced Repair Kit"
+        },
+        {
+          "file": "cleaningkit",
+          "label": "Cleaning Kit"
+        },
+        {
+          "file": "tirerepairkit",
+          "label": "Tire Repair Kit"
+        },
+        {
+          "file": "jerry_can",
+          "label": "Jerrycan"
+        },
+        {
+          "file": "car_jack",
+          "label": "Car Jack"
+        },
+        {
+          "file": "shovel",
+          "label": "Shovel"
+        },
+        {
+          "file": "pickaxe",
+          "label": "Pickaxe"
+        },
+        {
+          "file": "fishing_rod",
+          "label": "Fishing Rod"
+        }
+      ]
+    },
+    "materials": {
+      "label": "Materials",
+      "items": [
+        {
+          "file": "plastic",
+          "label": "Plastic"
+        },
+        {
+          "file": "metalscrap",
+          "label": "Metal Scrap"
+        },
+        {
+          "file": "copper",
+          "label": "Copper"
+        },
+        {
+          "file": "aluminum",
+          "label": "Aluminium"
+        },
+        {
+          "file": "iron",
+          "label": "Iron"
+        },
+        {
+          "file": "steel",
+          "label": "Steel"
+        },
+        {
+          "file": "rubber",
+          "label": "Rubber"
+        },
+        {
+          "file": "glass",
+          "label": "Glass"
+        },
+        {
+          "file": "wood_plank",
+          "label": "Wood Plank"
+        },
+        {
+          "file": "cloth",
+          "label": "Cloth"
+        },
+        {
+          "file": "leather",
+          "label": "Leather"
+        },
+        {
+          "file": "copper_wire",
+          "label": "Copper Wire"
+        },
+        {
+          "file": "gold_ore",
+          "label": "Gold Ore"
+        },
+        {
+          "file": "aluminumoxide",
+          "label": "Aluminium Powder"
+        },
+        {
+          "file": "ironoxide",
+          "label": "Iron Powder"
+        },
+        {
+          "file": "screws",
+          "label": "Screws"
+        }
+      ]
+    },
+    "vehicle": {
+      "label": "Vehicle Parts",
+      "items": [
+        {
+          "file": "veh_engine",
+          "label": "Engine"
+        },
+        {
+          "file": "veh_turbo",
+          "label": "Turbo"
+        },
+        {
+          "file": "veh_brakes",
+          "label": "Brakes"
+        },
+        {
+          "file": "veh_suspension",
+          "label": "Suspension"
+        },
+        {
+          "file": "veh_transmission",
+          "label": "Transmission"
+        },
+        {
+          "file": "veh_armor",
+          "label": "Vehicle Armor"
+        },
+        {
+          "file": "veh_wheels",
+          "label": "Wheels"
+        },
+        {
+          "file": "veh_neons",
+          "label": "Neons"
+        },
+        {
+          "file": "veh_xenons",
+          "label": "Xenons"
+        },
+        {
+          "file": "veh_tint",
+          "label": "Window Tint"
+        },
+        {
+          "file": "veh_plates",
+          "label": "License Plate"
+        },
+        {
+          "file": "veh_interior",
+          "label": "Interior Kit"
+        },
+        {
+          "file": "veh_exterior",
+          "label": "Body Kit"
+        },
+        {
+          "file": "nitrous",
+          "label": "Nitrous"
+        },
+        {
+          "file": "harness",
+          "label": "Race Harness"
+        },
+        {
+          "file": "tunerlaptop",
+          "label": "Tuner Laptop"
+        },
+        {
+          "file": "vehicle_key",
+          "label": "Vehicle Key"
+        },
+        {
+          "file": "vehicle_remote_key",
+          "label": "Remote Key"
+        },
+        {
+          "file": "car_door",
+          "label": "Car Door"
+        },
+        {
+          "file": "car_hood",
+          "label": "Car Hood"
+        },
+        {
+          "file": "catalytic_converter",
+          "label": "Catalytic Converter"
+        },
+        {
+          "file": "vehicle_oil",
+          "label": "Motor Oil"
+        }
+      ]
+    },
+    "tech": {
+      "label": "Electronics",
+      "items": [
+        {
+          "file": "phone",
+          "label": "Phone"
+        },
+        {
+          "file": "laptop",
+          "label": "Laptop"
+        },
+        {
+          "file": "tablet",
+          "label": "Tablet"
+        },
+        {
+          "file": "radio",
+          "label": "Radio"
+        },
+        {
+          "file": "radioscanner",
+          "label": "Radio Scanner"
+        },
+        {
+          "file": "pinger",
+          "label": "Pinger"
+        },
+        {
+          "file": "cryptostick",
+          "label": "Crypto Stick"
+        },
+        {
+          "file": "usb_drive",
+          "label": "USB Drive"
+        },
+        {
+          "file": "trojan_usb",
+          "label": "Trojan USB"
+        },
+        {
+          "file": "gatecrack",
+          "label": "Gatecrack"
+        },
+        {
+          "file": "electronickit",
+          "label": "Electronic Kit"
+        },
+        {
+          "file": "gps_tracker",
+          "label": "GPS Tracker"
+        },
+        {
+          "file": "smartwatch",
+          "label": "Smartwatch"
+        },
+        {
+          "file": "camera",
+          "label": "Camera"
+        },
+        {
+          "file": "drone",
+          "label": "Drone"
+        },
+        {
+          "file": "sim_card",
+          "label": "SIM Card"
+        },
+        {
+          "file": "hacking_device",
+          "label": "Hacking Device"
+        },
+        {
+          "file": "gaming_console",
+          "label": "Games Console"
+        }
+      ]
+    },
+    "documents": {
+      "label": "Documents",
+      "items": [
+        {
+          "file": "id_card",
+          "label": "ID Card"
+        },
+        {
+          "file": "driver_license",
+          "label": "Drivers License"
+        },
+        {
+          "file": "weaponlicense",
+          "label": "Weapon License"
+        },
+        {
+          "file": "lawyerpass",
+          "label": "Lawyer Pass"
+        },
+        {
+          "file": "hunting_license",
+          "label": "Hunting License"
+        },
+        {
+          "file": "fishing_license",
+          "label": "Fishing License"
+        },
+        {
+          "file": "passport",
+          "label": "Passport"
+        },
+        {
+          "file": "bank_card",
+          "label": "Bank Card"
+        },
+        {
+          "file": "security_card_01",
+          "label": "Security Card A"
+        },
+        {
+          "file": "security_card_02",
+          "label": "Security Card B"
+        },
+        {
+          "file": "contract_paper",
+          "label": "Contract"
+        },
+        {
+          "file": "receipt",
+          "label": "Receipt"
+        },
+        {
+          "file": "business_card",
+          "label": "Business Card"
+        },
+        {
+          "file": "stickynote",
+          "label": "Sticky Note"
+        }
+      ]
+    },
+    "valuables": {
+      "label": "Valuables",
+      "items": [
+        {
+          "file": "cash",
+          "label": "Cash"
+        },
+        {
+          "file": "cash_stack",
+          "label": "Stack of Cash"
+        },
+        {
+          "file": "cash_roll",
+          "label": "Roll of Cash"
+        },
+        {
+          "file": "moneybag",
+          "label": "Money Bag"
+        },
+        {
+          "file": "goldbar",
+          "label": "Gold Bar"
+        },
+        {
+          "file": "gold_coin",
+          "label": "Gold Coin"
+        },
+        {
+          "file": "goldchain",
+          "label": "Gold Chain"
+        },
+        {
+          "file": "tenkgoldchain",
+          "label": "10k Gold Chain"
+        },
+        {
+          "file": "diamond",
+          "label": "Diamond"
+        },
+        {
+          "file": "diamond_ring",
+          "label": "Diamond Ring"
+        },
+        {
+          "file": "golden_watch",
+          "label": "Golden Watch"
+        },
+        {
+          "file": "gold_earrings",
+          "label": "Gold Earrings"
+        },
+        {
+          "file": "pearl_necklace",
+          "label": "Pearl Necklace"
+        },
+        {
+          "file": "casinochips",
+          "label": "Casino Chips"
+        },
+        {
+          "file": "silver_bar",
+          "label": "Silver Bar"
+        },
+        {
+          "file": "crypto_ledger",
+          "label": "Crypto Ledger"
+        }
+      ]
+    },
+    "drugs": {
+      "label": "Drugs",
+      "items": [
+        {
+          "file": "joint",
+          "label": "Joint"
+        },
+        {
+          "file": "rolling_paper",
+          "label": "Rolling Paper"
+        },
+        {
+          "file": "weed_bud",
+          "label": "Weed Bud"
+        },
+        {
+          "file": "weed_brick",
+          "label": "Weed Brick"
+        },
+        {
+          "file": "empty_weed_bag",
+          "label": "Empty Weed Bag"
+        },
+        {
+          "file": "weed_seed",
+          "label": "Weed Seed"
+        },
+        {
+          "file": "weed_nutrition",
+          "label": "Plant Fertilizer"
+        },
+        {
+          "file": "cokebaggy",
+          "label": "Bag of Coke"
+        },
+        {
+          "file": "coke_brick",
+          "label": "Coke Brick"
+        },
+        {
+          "file": "coke_small_brick",
+          "label": "Coke Package"
+        },
+        {
+          "file": "cocaineleaf",
+          "label": "Coca Leaves"
+        },
+        {
+          "file": "crack_baggy",
+          "label": "Bag of Crack"
+        },
+        {
+          "file": "meth",
+          "label": "Meth"
+        },
+        {
+          "file": "meth_bag",
+          "label": "Bag of Meth"
+        },
+        {
+          "file": "xtcbaggy",
+          "label": "Bag of XTC"
+        },
+        {
+          "file": "oxy",
+          "label": "Prescription Oxy"
+        },
+        {
+          "file": "acetone",
+          "label": "Acetone"
+        },
+        {
+          "file": "baking_soda",
+          "label": "Baking Soda"
+        }
+      ]
+    },
+    "police": {
+      "label": "Police & Evidence",
+      "items": [
+        {
+          "file": "handcuffs",
+          "label": "Handcuffs"
+        },
+        {
+          "file": "police_badge",
+          "label": "Police Badge"
+        },
+        {
+          "file": "police_stormram",
+          "label": "Stormram"
+        },
+        {
+          "file": "empty_evidence_bag",
+          "label": "Empty Evidence Bag"
+        },
+        {
+          "file": "filled_evidence_bag",
+          "label": "Evidence Bag"
+        },
+        {
+          "file": "evidence_marker",
+          "label": "Evidence Marker"
+        },
+        {
+          "file": "fingerprint_scanner",
+          "label": "Fingerprint Scanner"
+        },
+        {
+          "file": "police_tablet",
+          "label": "Police Tablet"
+        },
+        {
+          "file": "spike_strip",
+          "label": "Spike Strip"
+        },
+        {
+          "file": "taser",
+          "label": "Taser"
+        },
+        {
+          "file": "megaphone",
+          "label": "Megaphone"
+        },
+        {
+          "file": "body_camera",
+          "label": "Body Camera"
+        },
+        {
+          "file": "armor",
+          "label": "Armor"
+        },
+        {
+          "file": "heavyarmor",
+          "label": "Heavy Armor"
+        },
+        {
+          "file": "police_flashlight",
+          "label": "Police Flashlight"
+        },
+        {
+          "file": "breathalyzer",
+          "label": "Breathalyzer"
+        }
+      ]
+    },
+    "misc": {
+      "label": "Misc",
+      "items": [
+        {
+          "file": "house_key",
+          "label": "House Key"
+        },
+        {
+          "file": "motel_key",
+          "label": "Motel Key"
+        },
+        {
+          "file": "garage_remote",
+          "label": "Garage Remote"
+        },
+        {
+          "file": "backpack",
+          "label": "Backpack"
+        },
+        {
+          "file": "duffel_bag",
+          "label": "Duffel Bag"
+        },
+        {
+          "file": "trash_bag",
+          "label": "Trash Bag"
+        },
+        {
+          "file": "binoculars",
+          "label": "Binoculars"
+        },
+        {
+          "file": "diving_gear",
+          "label": "Diving Gear"
+        },
+        {
+          "file": "umbrella",
+          "label": "Umbrella"
+        },
+        {
+          "file": "lighter",
+          "label": "Lighter"
+        },
+        {
+          "file": "cigarette_pack",
+          "label": "Cigarettes"
+        },
+        {
+          "file": "firework",
+          "label": "Firework"
+        }
+      ]
+    }
+  }
+}
