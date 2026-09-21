@@ -9,6 +9,12 @@ servers. CC0, no credit required.
 Filenames follow the qb-core `shared/items.lua` naming, so most items match an
 existing entry without renaming anything.
 
+**Need more than these 232?** This pack is the starter set. The full library at
+[ai.swisser.dev/fivem-inventory-icons](https://ai.swisser.dev/fivem-inventory-icons)
+has 2,800+ transparent icons. It is searchable, sorted by what people download
+most, and free to download without an account. If an item is missing, you can
+generate it there in about 15 seconds.
+
 ## Download
 
 | | | |
@@ -210,4 +216,4 @@ on a paid server, redistribute them. No attribution needed.
 
 ---
 
-Made with [SwisserAI](https://ai.swisser.dev), AI asset tools for FiveM.
+Made with [SwisserAI](https://ai.swisser.dev), AI asset tools for FiveM. More icons: [the full inventory icon library](https://ai.swisser.dev/fivem-inventory-icons).
